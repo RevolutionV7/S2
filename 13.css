@@ -1,0 +1,136 @@
+body {
+ margin: 0px;
+ padding: 0px;
+
+}
+
+
+ .op {
+  background-image: url("img/background_our-project.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fbf0a3;
+  display: flex;
+  justify-content: center;
+}
+
+}
+.op__container{
+  width: 1200px;
+}
+.op__title{
+    display: flex;
+    justify-content: center;
+}
+.op__items{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+}
+.op__item{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.op__img{
+  width: 450px;
+}
+
+
+
+.header {
+  background-color: #2D343C;
+}
+.header__logo{
+  max-height: 80px;
+  max-width: 80px;
+ 
+}
+
+.header__container{
+  
+  display:flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 0px auto;
+height:80px;
+align-items: center;
+}
+
+.header__menu {
+  color: #fbf0a3;
+  display: flex;
+  width: 700px;
+  justify-content:space-between; /* змінено з justify-content: space-between; */
+  align-items: center;
+}
+
+.header__link {
+  color: #fbf0a3;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+footer {
+  background-color: #2D343C;
+  height: 256px;
+  width: 1520px;
+  display: flex;
+  margin-top: auto; /* змінено з margin-top: 180px; */
+  position: relative; /* додано */
+ bottom: 0;
+}
+.footer__content {
+margin-top: 200px;
+  color: #fbf0a3;
+  font-size: 24px;
+  display: flex;
+  margin-top: 40px;
+}
+
+footer img {
+  margin-top: 70px;
+  margin-left: 80px;
+  width: 200px;
+
+  height: 200px;
+}
+
+.footer__link {
+  color: #fbf0a3;
+  margin-left: 100px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  max width: 100px;
+}
+
+.footer__link a {
+  margin-bottom: 10px;
+}
+
+.Real {
+  color: #ffffff;
+  font-size: 38px;
+  margin-left: 150px;
+  margin-top: 70px;
+  max-height: 180px;
+  max-width: 400px;
+}
+.em{
+  color: #fbf0a3;
+max-height: 30px;
+  margin-top: 180px;
+  margin-left: 80px;
+
+}
+.soc img{
+  margin-top: 150px;
+  margin-right: 100px;
+  max-height: 80px;
+  max-width: 200px;
+} 
