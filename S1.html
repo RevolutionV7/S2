@@ -5,6 +5,7 @@
     <title>Назва вашого сайту</title>
     <link rel="stylesheet" href="S11.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -30,10 +31,10 @@
           <p class="s1__h4">Leave your data here and representatives of our architectural <br>office will contact you in our<br> worktime.<br>Good day!
           </p>          
         </div>
-        <form class="s1__right">
-          <input type="text" name="q" placeholder="Your name" class="area">
-          <input type="text" name="t"placeholder="Your email" class="area">
-          <input type="button" value="Send your info" class="btn">          
+        <form class="s1__right" id="contactForm">
+          <input type="text" name="q" placeholder="Your name" class="area" required>
+          <input type="email" name="t" placeholder="Your email" class="area" required>
+          <input type="submit" value="Send your info" class="btn">          
         </form> 
         </div> 
                
@@ -60,5 +61,3 @@
         <img src="img/3.PNG">
       </footer>
     </footer>
-  </body>
-</html>
